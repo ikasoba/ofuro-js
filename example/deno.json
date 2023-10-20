@@ -1,0 +1,17 @@
+{
+  "lock": false,
+  "imports": {
+    "easy-js": "../mod.ts",
+    "easy-js/jsx-runtime": "../jsx-runtime.ts",
+    "esbuild/": "https://deno.land/x/esbuild@v0.19.4/",
+    "esbuild_deno_loader/": "https://deno.land/x/esbuild_deno_loader@0.8.2/",
+    "path/": "https://deno.land/std@0.204.0/path/",
+    "fs/": "https://deno.land/std@0.204.0/fs/",
+    "esbuild-plugin-copy/": "npm:/esbuild-plugin-copy/"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window", "dom"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "easy-js"
+  }
+}
